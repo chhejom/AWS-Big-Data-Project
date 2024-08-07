@@ -35,12 +35,13 @@ docker run -e DATASET_ID="8m42-w767" -e APP_TOKEN="krMesDIBHUwoHj7jDY0S9z197" -e
 
 
 Total 1,901,062 data fetch from the website NYC Open Data.
-Visualization 1: Incident Distribution by Classification
+
+# Visualization 1: Incident Distribution by Classification
 
 This visualization represents the distribution of various incident classifications within the dataset. It is a donut chart that highlights the percentage share of each type of incident, allowing us to easily understand the most common types of incidents reported.
 The largest category involves assisting civilians in medical emergencies, accounting for 18.32% of the incidents. This is followed by Emergency Medical Services (EMS), which makes up 10.28% of the total incidents, and the Police Department (PD) link, accounting for 9.87% of the total incidents. Observing the top incident categories, medical services were the most frequently requested.
 
-Visualization 2: Incident Volume by Borough Visualization
+# Visualization 2: Incident Volume by Borough Visualization
 
 
 
@@ -51,7 +52,7 @@ Queens: Queens ranks third in terms of incident volume, with counts significantl
 Bronx: The Bronx has a moderate number of incidents, with counts falling between those of Queens and Staten Island.
 Richmond/Staten Island: This borough reports the lowest number of incidents, significantly less than the other four boroughs.
 
-Visualization 3: Average Incident Response Time per Borough
+# Visualization 3: Average Incident Response Time per Borough
 
 
 
@@ -62,7 +63,7 @@ Richmond/Staten Island: The response time in Richmond/Staten Island is similar t
 Bronx: The Bronx shows a higher average response time, indicating that it takes longer for emergency services to respond to incidents compared to Brooklyn and Manhattan.
 Queens: Queens has the highest average response time, nearing 280 seconds. This suggests that there might be logistical or infrastructural challenges affecting the speed of emergency responses in Queens.
 
-Visualization 4: Average Incident Response Time per Incident Classification
+# Visualization 4: Average Incident Response Time per Incident Classification
 
 
 
@@ -73,7 +74,7 @@ Undefined Non-Structural Fires: Fires categorized as undefined non-structural in
 Vehicle Accidents: Incidents involving vehicle accidents, particularly those with extrication, fall somewhere between these two extremes in terms of average response time.
 
 
-Conclusion
+#Conclusion
 
 This project showcases the extraction, transformation, and loading of large datasets into Elasticsearch for analysis and visualization. By leveraging OpenSearch Dashboards, you can gain valuable insights and make data-driven decisions based on incident report data.
 
