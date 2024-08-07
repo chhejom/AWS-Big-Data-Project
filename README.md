@@ -74,7 +74,7 @@ Undefined Non-Structural Fires: Fires categorized as undefined non-structural in
 Vehicle Accidents: Incidents involving vehicle accidents, particularly those with extrication, fall somewhere between these two extremes in terms of average response time.
 
 
-#Conclusion
+# Conclusion
 
 This project showcases the extraction, transformation, and loading of large datasets into Elasticsearch for analysis and visualization. By leveraging OpenSearch Dashboards, you can gain valuable insights and make data-driven decisions based on incident report data.
 
