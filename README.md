@@ -36,7 +36,7 @@ docker run -e DATASET_ID="8m42-w767" -e APP_TOKEN="krMesDIBHUwoHj7jDY0S9z197" -e
 Total 1,901,062 data fetch from the website NYC Open Data.
 
 # Visualization 1: Incident Distribution by Classification
-incident classifixation pie chart.png
+
 This visualization represents the distribution of various incident classifications within the dataset. It is a donut chart that highlights the percentage share of each type of incident, allowing us to easily understand the most common types of incidents reported.
 The largest category involves assisting civilians in medical emergencies, accounting for 18.32% of the incidents. This is followed by Emergency Medical Services (EMS), which makes up 10.28% of the total incidents, and the Police Department (PD) link, accounting for 9.87% of the total incidents. Observing the top incident categories, medical services were the most frequently requested.
 
