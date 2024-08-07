@@ -32,6 +32,8 @@ Arguments
 docker run -e DATASET_ID="8m42-w767" -e APP_TOKEN="krMesDIBHUwoHj7jDY0S9z197" -e ES_HOST="https://search-project-fire-grixv2gudd2dlzuuhsnq5eoivq.us-east-2.es.amazonaws.com" -e ES_USERNAME="projectfire" -e ES_PASSWORD="290296Aws@" -e INDEX_NAME="fire" bigdataproject1:1.0 --page_size=100 --num_pages 1 --start_page 1
 
 # Data Visualization
+![gauge](https://github.com/user-attachments/assets/ba9a8695-f1cd-4faf-8473-41a1592285a1)
+
 Total 1,901,062 data fetch from the website NYC Open Data.
 
 # Visualization 1: Incident Distribution by Classification
