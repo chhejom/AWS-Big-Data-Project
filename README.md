@@ -60,7 +60,7 @@ The bar chart above represents the average incident response time in seconds for
 * Queens: Queens has the highest average response time, nearing 280 seconds. This suggests that there might be logistical or infrastructural challenges affecting the speed of emergency responses in Queens.
 
 # Visualization 4: Average Incident Response Time per Incident Classification
-<img width="1013" alt="incident classifixation pie chart" src="https://github.com/user-attachments/assets/0d975a9b-c7c8-4909-9588-5826d2201205">
+<img width="1020" alt="Avg respond time seconds per classification" src="https://github.com/user-attachments/assets/39962e86-f5c1-485b-be75-30d30f95ea4b">
 This bar chart presents the average incident response time in seconds for various incident classifications. Here are the key observations:
 
 * Utility Emergencies: Incidents related to utility emergencies, encompassing water, undefined, steam, gas, and electric issues, exhibit the longest average response times. This indicates potential challenges in addressing these types of incidents.
