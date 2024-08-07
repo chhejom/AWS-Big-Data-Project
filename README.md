@@ -3,20 +3,20 @@ This project involves extracting and uploading a large dataset of incident repor
 
 # Components
 
-Data Extraction Script: A Python script using the Socrata API and requests library to fetch data
-Docker Configuration: Docker to run the Python script in a containerized environment
-Elasticsearch: For storing and indexing the data
-OpenSearch Dashboards: For data visualization
+* Data Extraction Script: A Python script using the Socrata API and requests library to fetch data
+* Docker Configuration: Docker to run the Python script in a containerized environment
+* Elasticsearch: For storing and indexing the data
+* OpenSearch Dashboards: For data visualization
 
 # Setup
 # Environment Variables
 The script requires several environment variables for configuration. Ensure the following variables are set in your environment:
-DATASET_ID: The dataset ID from the City of New York's open data portal (e.g., 8m42-w767 for this website).
-APP_TOKEN: Your Socrata API token.
-ES_HOST: URL of your Elasticsearch instance.
-ES_USERNAME: Elasticsearch username.
-ES_PASSWORD: Elasticsearch password.
-INDEX_NAME: The name of the Elasticsearch index where the data will be stored.
+* DATASET_ID: The dataset ID from the City of New York's open data portal (e.g., 8m42-w767 for this website).
+* APP_TOKEN: Your Socrata API token.
+* ES_HOST: URL of your Elasticsearch instance.
+* ES_USERNAME: Elasticsearch username.
+* ES_PASSWORD: Elasticsearch password.
+* INDEX_NAME: The name of the Elasticsearch index where the data will be stored.
 
 # Docker Configuration
 A Dockerfile is provided to create a containerized environment for running the data extraction and upload script.
@@ -44,28 +44,28 @@ The largest category involves assisting civilians in medical emergencies, accoun
 # Visualization 2: Incident Volume by Borough Visualization
 <img width="1010" alt="incident per borough" src="https://github.com/user-attachments/assets/2d27fb51-e36e-427f-8517-9004c53cbfa7">
 The bar chart displayed above illustrates the volume of incidents reported in each borough of New York City. Here's an analysis based on the visualization:
-Brooklyn: This borough shows the highest number of incidents, exceeding 500,000. It suggests that Brooklyn experiences a higher frequency of reported incidents compared to other boroughs.
-Manhattan: Close to Brooklyn, Manhattan also exhibits a high number of incidents, slightly below Brooklyn. This indicates a high demand for incident response services in this borough as well.
-Queens: Queens ranks third in terms of incident volume, with counts significantly higher than the Bronx and Staten Island but lower than Brooklyn and Manhattan.
-Bronx: The Bronx has a moderate number of incidents, with counts falling between those of Queens and Staten Island.
-Richmond/Staten Island: This borough reports the lowest number of incidents, significantly less than the other four boroughs.
+* Brooklyn: This borough shows the highest number of incidents, exceeding 500,000. It suggests that Brooklyn experiences a higher frequency of reported incidents compared to other boroughs.
+* Manhattan: Close to Brooklyn, Manhattan also exhibits a high number of incidents, slightly below Brooklyn. This indicates a high demand for incident response services in this borough as well.
+* Queens: Queens ranks third in terms of incident volume, with counts significantly higher than the Bronx and Staten Island but lower than Brooklyn and Manhattan.
+* Bronx: The Bronx has a moderate number of incidents, with counts falling between those of Queens and Staten Island.
+* Richmond/Staten Island: This borough reports the lowest number of incidents, significantly less than the other four boroughs.
 
 # Visualization 3: Average Incident Response Time per Borough
 <img width="1014" alt="Avg respond time seconds per borough" src="https://github.com/user-attachments/assets/c334b629-23e0-44a9-b532-fb69c815ac9a">
 The bar chart above represents the average incident response time in seconds for each borough of New York City. Here are the key insights:
-Brooklyn: Brooklyn has the shortest average response time, around 250 seconds. This suggests that emergency services in Brooklyn are relatively faster compared to other boroughs.
-Manhattan: The response time in Manhattan is slightly higher than in Brooklyn, indicating a slight delay in response times.
-Richmond/Staten Island: The response time in Richmond/Staten Island is similar to Manhattan, showing that the emergency response is consistent across these two boroughs.
-Bronx: The Bronx shows a higher average response time, indicating that it takes longer for emergency services to respond to incidents compared to Brooklyn and Manhattan.
-Queens: Queens has the highest average response time, nearing 280 seconds. This suggests that there might be logistical or infrastructural challenges affecting the speed of emergency responses in Queens.
+* Brooklyn: Brooklyn has the shortest average response time, around 250 seconds. This suggests that emergency services in Brooklyn are relatively faster compared to other boroughs.
+* Manhattan: The response time in Manhattan is slightly higher than in Brooklyn, indicating a slight delay in response times.
+* Richmond/Staten Island: The response time in Richmond/Staten Island is similar to Manhattan, showing that the emergency response is consistent across these two boroughs.
+* Bronx: The Bronx shows a higher average response time, indicating that it takes longer for emergency services to respond to incidents compared to Brooklyn and Manhattan.
+* Queens: Queens has the highest average response time, nearing 280 seconds. This suggests that there might be logistical or infrastructural challenges affecting the speed of emergency responses in Queens.
 
 # Visualization 4: Average Incident Response Time per Incident Classification
 <img width="1013" alt="incident classifixation pie chart" src="https://github.com/user-attachments/assets/0d975a9b-c7c8-4909-9588-5826d2201205">
 This bar chart presents the average incident response time in seconds for various incident classifications. Here are the key observations:
 
-Utility Emergencies: Incidents related to utility emergencies, encompassing water, undefined, steam, gas, and electric issues, exhibit the longest average response times. This indicates potential challenges in addressing these types of incidents.
-Undefined Non-Structural Fires: Fires categorized as undefined non-structural incidents have the shortest average response times. This suggests efficient handling of this type of fire.
-Vehicle Accidents: Incidents involving vehicle accidents, particularly those with extrication, fall somewhere between these two extremes in terms of average response time.
+* Utility Emergencies: Incidents related to utility emergencies, encompassing water, undefined, steam, gas, and electric issues, exhibit the longest average response times. This indicates potential challenges in addressing these types of incidents.
+* Undefined Non-Structural Fires: Fires categorized as undefined non-structural incidents have the shortest average response times. This suggests efficient handling of this type of fire.
+* Vehicle Accidents: Incidents involving vehicle accidents, particularly those with extrication, fall somewhere between these two extremes in terms of average response time.
 
 
 # Conclusion
