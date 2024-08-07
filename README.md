@@ -37,12 +37,12 @@ docker run -e DATASET_ID="8m42-w767" -e APP_TOKEN="krMesDIBHUwoHj7jDY0S9z197" -e
 Total 1,901,062 data fetch from the website NYC Open Data.
 
 # Visualization 1: Incident Distribution by Classification
-
+<img width="1013" alt="incident classifixation pie chart" src="https://github.com/user-attachments/assets/0d975a9b-c7c8-4909-9588-5826d2201205">
 This visualization represents the distribution of various incident classifications within the dataset. It is a donut chart that highlights the percentage share of each type of incident, allowing us to easily understand the most common types of incidents reported.
 The largest category involves assisting civilians in medical emergencies, accounting for 18.32% of the incidents. This is followed by Emergency Medical Services (EMS), which makes up 10.28% of the total incidents, and the Police Department (PD) link, accounting for 9.87% of the total incidents. Observing the top incident categories, medical services were the most frequently requested.
 
 # Visualization 2: Incident Volume by Borough Visualization
-
+<img width="1010" alt="incident per borough" src="https://github.com/user-attachments/assets/2d27fb51-e36e-427f-8517-9004c53cbfa7">
 The bar chart displayed above illustrates the volume of incidents reported in each borough of New York City. Here's an analysis based on the visualization:
 Brooklyn: This borough shows the highest number of incidents, exceeding 500,000. It suggests that Brooklyn experiences a higher frequency of reported incidents compared to other boroughs.
 Manhattan: Close to Brooklyn, Manhattan also exhibits a high number of incidents, slightly below Brooklyn. This indicates a high demand for incident response services in this borough as well.
@@ -51,7 +51,7 @@ Bronx: The Bronx has a moderate number of incidents, with counts falling between
 Richmond/Staten Island: This borough reports the lowest number of incidents, significantly less than the other four boroughs.
 
 # Visualization 3: Average Incident Response Time per Borough
-
+<img width="1014" alt="Avg respond time seconds per borough" src="https://github.com/user-attachments/assets/c334b629-23e0-44a9-b532-fb69c815ac9a">
 The bar chart above represents the average incident response time in seconds for each borough of New York City. Here are the key insights:
 Brooklyn: Brooklyn has the shortest average response time, around 250 seconds. This suggests that emergency services in Brooklyn are relatively faster compared to other boroughs.
 Manhattan: The response time in Manhattan is slightly higher than in Brooklyn, indicating a slight delay in response times.
@@ -60,7 +60,7 @@ Bronx: The Bronx shows a higher average response time, indicating that it takes 
 Queens: Queens has the highest average response time, nearing 280 seconds. This suggests that there might be logistical or infrastructural challenges affecting the speed of emergency responses in Queens.
 
 # Visualization 4: Average Incident Response Time per Incident Classification
-
+<img width="1013" alt="incident classifixation pie chart" src="https://github.com/user-attachments/assets/0d975a9b-c7c8-4909-9588-5826d2201205">
 This bar chart presents the average incident response time in seconds for various incident classifications. Here are the key observations:
 
 Utility Emergencies: Incidents related to utility emergencies, encompassing water, undefined, steam, gas, and electric issues, exhibit the longest average response times. This indicates potential challenges in addressing these types of incidents.
