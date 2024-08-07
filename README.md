@@ -1,15 +1,15 @@
 # AWS-Big-Data-Project
 This project involves extracting and uploading a large dataset of incident reports from the City of New York's open data portal to an Elasticsearch instance for further analysis and visualization using OpenSearch Dashboards. The goal of the project is to fetch around 2 million records from the dataset.  By utilizing Elasticsearch and OpenSearch Dashboards, the project aims to provide insights into various metrics such as response times and incident distribution across different boroughs of NYC.
 
-Components
+# Components
 
 Data Extraction Script: A Python script using the Socrata API and requests library to fetch data
 Docker Configuration: Docker to run the Python script in a containerized environment
 Elasticsearch: For storing and indexing the data
 OpenSearch Dashboards: For data visualization
 
-Setup
-Environment Variables
+# Setup
+# Environment Variables
 The script requires several environment variables for configuration. Ensure the following variables are set in your environment:
 DATASET_ID: The dataset ID from the City of New York's open data portal (e.g., 8m42-w767 for this website).
 APP_TOKEN: Your Socrata API token.
@@ -17,18 +17,21 @@ ES_HOST: URL of your Elasticsearch instance.
 ES_USERNAME: Elasticsearch username.
 ES_PASSWORD: Elasticsearch password.
 INDEX_NAME: The name of the Elasticsearch index where the data will be stored.
-Docker Configuration
+
+# Docker Configuration
 A Dockerfile is provided to create a containerized environment for running the data extraction and upload script.
 
-Python Script
+# Python Script
 The script data_upload.py is designed to fetch incident report data from the NYC open data portal and upload it to an Elasticsearch index.
 Arguments
 --page_size: (Required) Number of rows to fetch per page.
 --num_pages: (Optional) Total number of pages to fetch. If not provided, the script fetches all available data.
 --start_page: (Optional) The page number to start fetching data from. Useful for resuming data fetches.
-Docker Run Example
+
+# Docker Run Example
 docker run -e DATASET_ID="8m42-w767" -e APP_TOKEN="krMesDIBHUwoHj7jDY0S9z197" -e ES_HOST="https://search-project-fire-grixv2gudd2dlzuuhsnq5eoivq.us-east-2.es.amazonaws.com" -e ES_USERNAME="projectfire" -e ES_PASSWORD="290296Aws@" -e INDEX_NAME="fire" bigdataproject1:1.0 --page_size=100 --num_pages 1 --start_page 1
-Data Visualization
+
+# Data Visualization
 
 
 Total 1,901,062 data fetch from the website NYC Open Data.
