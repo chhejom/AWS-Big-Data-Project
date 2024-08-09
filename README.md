@@ -1,4 +1,5 @@
-# AWS-Big-Data-Project
+# Large-Scale NYC Incident Data Extraction and Visualization Using AWS
+
 This project involves extracting and uploading a large dataset of incident reports from the City of New York's open data portal to an Elasticsearch instance for further analysis and visualization using OpenSearch Dashboards. The goal of the project is to fetch around 2 million records from the dataset.  By utilizing Elasticsearch and OpenSearch Dashboards, the project aims to provide insights into various metrics such as response times and incident distribution across different boroughs of NYC.
 
 # Components
