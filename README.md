@@ -30,7 +30,7 @@ Arguments
 --start_page: (Optional) The page number to start fetching data from. Useful for resuming data fetches.
 
 # Docker Run Example
-docker run -e DATASET_ID="8m42-w767" -e APP_TOKEN="krMesDIBHUwoHj7jDY0S9z197" -e ES_HOST="https://search-project-fire-grixv2gudd2dlzuuhsnq5eoivq.us-east-2.es.amazonaws.com" -e ES_USERNAME="projectfire" -e ES_PASSWORD="290296Aws@" -e INDEX_NAME="fire" bigdataproject1:1.0 --page_size=100 --num_pages 1 --start_page 1
+docker run -e DATASET_ID="8m42-w767" -e APP_TOKEN="krMesDIBHUwoHj7jDY0S9z197" -e ES_HOST="https://search-project-fire-grixv2gudd2dlzuuhsnq5eoivq.us-east-2.es.amazonaws.com" -e ES_USERNAME="projectfire" -e ES_PASSWORD="PasswordAws@" -e INDEX_NAME="fire" bigdataproject1:1.0 --page_size=100 --num_pages 1 --start_page 1
 
 # Data Visualization
 ![gauge](https://github.com/user-attachments/assets/ba9a8695-f1cd-4faf-8473-41a1592285a1)
